@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Club</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <div class="logo-container">
+                <img src="images/college-logo.png" alt="College Logo" class="college-logo">
+                <div class="club-name">College Club</div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#membership">Membership</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Homepage Section -->
+    <section id="home" class="hero-section">
+        <h1>Welcome to the College Club</h1>
+        <p>Connecting students, building skills, and creating unforgettable experiences.</p>
+        <a href="#membership" class="cta-button">Join Us</a>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>The College Club is dedicated to bringing together students with similar interests...</p>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events">
+        <h2>Upcoming Events</h2>
+        <ul>
+            <li><strong>Event 1:</strong> Details...</li>
+            <li><strong>Event 2:</strong> Details...</li>
+        </ul>
+    </section>
+
+    <!-- Membership Section -->
+    <section id="membership">
+        <h2>Become a Member</h2>
+        <p>Join our club to participate in exclusive events and activities.</p>
+        <a href="#contact" class="cta-button">Join Now</a>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+            <img src="images/event1.jpg" alt="Event Image 1">
+            <img src="images/event2.jpg" alt="Event Image 2">
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog">
+        <h2>Latest News</h2>
+        <article>
+            <h3>Blog Post Title</h3>
+            <p>Blog post excerpt...</p>
+            <a href="#">Read More</a>
+        </article>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 College Club. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
