@@ -2,18 +2,58 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #333;
+    color:#333;
+    background-color:whitesmoke;
+    
+    
+    
+}
+#about-us {
+    text-align: justify;
+}
+#about-us:hover {
+    font-weight: bold;
+   
+}
+#about-us::first-letter {
+    font-size: 25px;
+    font-weight: bolder;
+}
+#now {
+    font-weight: bolder;
+}
+.hero-section {
+    background-color:rgb(242, 221, 182);
+}
+.dept {
+    font-weight: bold;
+}
+#btn {
+    background-color: aqua;
+    font-weight: 900px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#btn:hover {
+    box-shadow: 2px 2px 10px black;
+}
+#btn:active {
+    background-color: #333;
 }
 
 header {
-    background: #333;
-    color: #fff;
-    padding: 1rem 0;
+  background-color: aqua;
+    
+    padding: 1px;
+    
+}
+#join {
+    font-weight: bolder;
 }
 
 nav {
@@ -22,7 +62,11 @@ nav {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 1px 1px;
+    font-size: 30px;
+}
+.nav-links {
+    font-weight: bolder;
 }
 
 .logo-container {
@@ -31,12 +75,18 @@ nav {
 }
 
 .college-logo {
-    height: 50px;
-    margin-right: 15px;
+    height: 60px;
+    margin-right: 20px;
+}
+.club-logo {
+    height: 90px;
+    margin-right: 2px;
+
 }
 
 .club-name {
     font-size: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .nav-links {
@@ -55,7 +105,7 @@ nav {
 }
 
 .hero-section {
-    background: #f4f4f4;
+    background:lightblue;
     padding: 100px 20px;
     text-align: center;
 }
@@ -119,3 +169,52 @@ footer p {
 .social-links a:hover {
     text-decoration: underline;
 }
+.pmg {
+    text-align: end;
+    font-size: 10px;
+}
+
+   
+
+
+
+#name {
+    height: 30px;
+    width: 200px;
+    margin-right: 20px;
+    border-radius: 10px;
+    
+    
+   
+}
+#email{
+    height: 30px;
+    width: 200px;
+    margin-right: 20px;
+    border-radius: 10px;
+ 
+}
+#message {
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+   
+}
+#submit {
+    height: 30px;
+    width: 70px;
+    margin-left: 20px;
+    border-radius: 10px;
+    font-weight: bolder;
+    background-color: aqua;
+    
+}
+#submit:hover {
+    box-shadow: 2px 2px 10px black;
+}
+.label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+    
