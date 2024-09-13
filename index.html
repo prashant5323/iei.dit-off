@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>College Club</title>
+    <title>IEI DIT OFFICIAL</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Navigation Bar -->
     <header>
-        <nav>
+        <nav style="background-color: aqua">
             <div class="logo-container">
-                <img src="images/college-logo.png" alt="College Logo" class="college-logo">
-                <div class="club-name">College Club</div>
+                <img src="iei_logo-removebg-preview.png" alt="iei Logo" class="club-logo">
+                
             </div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
@@ -23,44 +23,54 @@
                 <li><a href="#blog">Blog</a></li>
                 <li><a href="#contact">Contact Us</a></li>
             </ul>
+
+
+
+            <img src="dpu logo.png" alt="College Logo" class="college-logo">
+                
+
         </nav>
     </header>
 
     <!-- Homepage Section -->
-    <section id="home" class="hero-section">
-        <h1>Welcome to the College Club</h1>
+    <section id="home" class="hero-section" style="background-color: #FFF6E9">
+      
+        <h1>Welcome To <br>𝕿𝖍𝖊 𝕴𝖓𝖘𝖙𝖎𝖙𝖚𝖙𝖎𝖔𝖓𝖘 𝕺𝖋 𝕰𝖓𝖌𝖎𝖓𝖊𝖊𝖗𝖘 (𝕴𝖓𝖉𝖎𝖆)</h1>
+        <p class="dept"> Students Chapter Dr.D.Y Patil Institute Of Technology,Pune <br> department of Electronics & Telecommunications Engg.</p>
         <p>Connecting students, building skills, and creating unforgettable experiences.</p>
-        <a href="#membership" class="cta-button">Join Us</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdAbg44ilETh5NC3ys62RNpWQWFDMbZuuhPJkeh_AonKv3Btg/viewform?usp=sf_link" class="cta-button" id="btn"><p id="join">Join Us </p></a>
     </section>
 
     <!-- About Us Section -->
     <section id="about">
         <h2>About Us</h2>
-        <p>The College Club is dedicated to bringing together students with similar interests...</p>
+        <p id="about-us">The Institution of Engineers (India) [IEI] is the largest multi-disciplinary professional body of engineers, established in 1920 with its Headquarters located in Kolkata and incorporated under Royal Charter on 9th September, 1935 by the then His Majesty of King George V. The Royal Charter endowed the Institution with the responsibility to promote the general advancement of engineering amongst its members and persons attached to the Institution. he Institution of Engineers (India) is the first professional body to represent India in several International Bodies, such as the World Mining Congress (WMC), the World Federation of Engineering Organizations (WFEO), the Commonwealth Engineers’ Council (CEC), the Federation International du Beton (fib), and the Federation of Engineering Institutions of South and Central Asia (FEISCA). It also has bilateral agreements with a number of professional societies across the globe. <br> We are  a group of students [<b>Students Chapter </b>] at <b> Dr.D.Y.Patil Institute Of technology,Pune </b> within a society we organizes various activities and operations  in a specific domains given by IEI (india) .</p>
     </section>
 
     <!-- Events Section -->
     <section id="events">
         <h2>Upcoming Events</h2>
         <ul>
-            <li><strong>Event 1:</strong> Details...</li>
-            <li><strong>Event 2:</strong> Details...</li>
+            <li><strong>Event 1:</strong> Upcoming events will updated soon.....</li>
+            <li><strong>Event 2:</strong> Upcoming events will updated soon.....</li>
         </ul>
     </section>
 
     <!-- Membership Section -->
     <section id="membership">
         <h2>Become a Member</h2>
-        <p>Join our club to participate in exclusive events and activities.</p>
-        <a href="#contact" class="cta-button">Join Now</a>
+        <p id="about-us">🌐 Transform your career with hands-on experience & pro networking. 🎓 Exclusive events, workshops & more! 🎉 Join us for events, workshops, and opportunities!📲 Tap on the <b>'Join Now' </b> button to join the exclusive journey.Connect with industry pros & build skills for success. </p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdAbg44ilETh5NC3ys62RNpWQWFDMbZuuhPJkeh_AonKv3Btg/viewform?usp=sf_link" class="cta-button" id="btn"><p id="now">Join Now </p></a>
     </section>
 
     <!-- Gallery Section -->
     <section id="gallery">
         <h2>Gallery</h2>
         <div class="gallery-grid">
-            <img src="images/event1.jpg" alt="Event Image 1">
-            <img src="images/event2.jpg" alt="Event Image 2">
+            <img src="WhatsApp Image 2024-09-12 at 9.42.05 PM (1).jpeg" alt="Event Image 1">
+            <img src="WhatsApp Image 2024-09-06 at 7.20.13 PM.jpeg" alt="Event Image 2">
+            <img src="WhatsApp Image 2024-09-12 at 9.42.05 PM (2).jpeg" alt="Event Image 3">
+            
         </div>
     </section>
 
@@ -68,8 +78,8 @@
     <section id="blog">
         <h2>Latest News</h2>
         <article>
-            <h3>Blog Post Title</h3>
-            <p>Blog post excerpt...</p>
+            <h3>Pune International Airport Visit</h3>
+            <p id="about-us">The document summarizes a one-day visit by second year B.E. students in Electronics and Communication Engineering to <b>Pune International Airport </b> in lohegoan Pune, India. The students received presentations on the airport's departments and operations. They then visited the Air Traffic Control tower and Equipment Room, where staff explained air traffic management. Students observed live air traffic monitoring and were excited to learn technical details. The visit provided career insights and was a great learning experience for the undergraduate students.</p>
             <a href="#">Read More</a>
         </article>
     </section>
@@ -78,30 +88,32 @@
     <section id="contact">
         <h2>Contact Us</h2>
         <form action="submit_form.php" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
+            <label for="name" class="label">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+            <label for="email" class="label">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
 
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
+            <label for="message" class="label">Message:</label>
+            <input type="text" id="message" name="message" placeholder="Drop Your Message here" required>
 
-            <button type="submit">Send</button>
+            <button type="submit" id="submit">Send</button>
         </form>
     </section>
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2024 College Club. All rights reserved.</p>
+        <p>&copy; 2024 IEI DYPIT OFFICIAL. All rights reserved.</p>
         <div class="social-links">
             <a href="#">Facebook</a>
             <a href="#">Twitter</a>
-            <a href="#">Instagram</a>
+            <a href="https://www.instagram.com/iei_dit/">Instagram</a>
+            <br>
+           
         </div>
-        <P> made by - dev prashant</P>
     </footer>
 
     <script src="scripts.js"></script>
+    <p class="pmg"> Website designed and manged by - Dev. Prashant M. Girme contact-7057068485 </p>
 </body>
 </html>
